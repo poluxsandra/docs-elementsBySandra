@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="imagem/png" href="elements.png">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"href="docs.css">
+    <title>Classificação de Elementos by Sandra Martini</title>
+
+</head>
+<body>
+
+    <div class="container-xxl my-md-4 bd-layout">
+        <main class="bd-main order-1">
+             <div class="bd-content ps-lg-4">
+                <ol>
+                    <li><strong>Ordenatórias:</strong> são tags que definem toda a estrutura global do documento HTML(seu esqueleto). Todas as outras tags descendem delas.
+                        <ul type="disc">
+                            <li><code>&lt;html&gt;, &lt;head&gt; e &lt;body&gt;</code>
+                        </ul>
+                        <br/>
+
+                    <li><strong>Modulares:</strong> são tags que definem as configurações e propriedades globais do documento HTML.
+                        <ul type="disc">
+                            <li><code>&lt;title&gt;, &lt;base&gt;, &lt;link&gt; e &lt;meta&gt;</code>
+                        </ul>
+                        <br/>
+
+                    <li><strong>Setoriais:</strong> são tags que criam seções(subdivisões do corpo geral) do documento, portanto são agregadoras de outros conteúdos. 
+                        <ul type="disc">
+                            <li><code>&lt;article&gt;, &lt;nav&gt;, &lt;main&gt; e &lt;aside&gt;</code>
+                        </ul>
+                        <br/>
+
+                    <li><strong>Estruturais:</strong> são tags que fornece a infraestrutura básica de seções(<code>&lt;article&gt;, &lt;nav&gt;, &lt;main&gt; e &lt;aside&gt;</code>) ou do documento(<code>&lt;body&gt;</code>).
+                        <ul type="disc">
+                            <li><code>&lt;header&gt;[ &lt;hgroup&gt;( &lt;h1-h6&gt; ) ] &lt;footer&gt;[ &lt;address&gt; ]</code>
+                        </ul>
+                        <br/>
+
+                    <li><strong>Conteniers:</strong> são tags usadas para agregar conteúdo genéricos. São usadas em último caso, quando o conteúdo não se encaixar em outras tags.
+                        <ul type="disc">
+                            <li><code>&lt;section&gt;, &lt;div&gt; e &lt;b&gt;</code>
+                        </ul>
+                        <br/>
+
+                    <li><strong>Marcadores:</strong> são tags que definem(criam) um trecho de texto, dando a eles um significado ou função(O que é isso?).
+                        <ul type="disc">
+                            <li><code>&lt;blockquote&gt;, &lt;p&gt;, &lt;pre&gt;, &lt;abbr&gt;, &lt;code&gt;, &lt;data&gt;, &lt;kbd&gt;, &lt;q&gt;, &lt;samp&gt;, &lt;time&gt;, &lt;u&gt;, &lt;s&gt;, &lt;cite&gt;, &lt;var&gt;, &lt;ins&gt;, &lt;del&gt; e &lt;ruby&gt;[ &lt;rt&gt;, &lt;rp&gt; ]</code>
+                        </ul>
+                        <br/>
+
+                    <li><strong>Semânticas:</strong> são tags que modificam o sentido já preexistente do texto. Fazem isso intensificando(positiva ou negativamente) o seu sentido.
+                        <ul type="disc">
+                            <li><code>&lt;mark&gt;, &lt;small&gt;, &lt;strong&gt; e &lt;em&gt;</code>
+                        </ul>
+                        <br/>
+
+                    <li><strong>Editoras:</strong> são tags que tanto, podem modificar a apresentação do texto(não trabalham com seu sentido), quanto, podem mudar sua estrutura(a forma como o texto é renderizado no browser).
+                        <ul type="disc">
+                            <li><code>&lt;hr&gt;, &lt;bdi&gt;, &lt;bdo&gt;, &lt;br&gt;, &lt;dfn&gt;, &lt;sub&gt;, &lt;sup&gt;, &lt;wbr&gt; e &lt;span&gt;</code>
+                        </ul>
+                        <br/>
+
+                    <li><strong>Constituintes:</strong> são tags que criam instâncias(coisas), adicionando-as ao documento.
+                        <ul type="disc">
+                            <li><code>&lt;dl&gt;[ &lt;dt&gt;, &lt;dd&gt; ], &lt;ol&gt;[ &lt;li&gt; ], &lt;ul&gt;[ &lt;li&gt; ], &lt;a&gt;, &lt;menu&gt;, &lt;table&gt;[ &lt;caption&gt;, &lt;colgroup&gt;[ &lt;col&gt;] &lt;tbody&gt;, &lt;thead&gt;, &lt;tfoot&gt;, &lt;tr&gt;, &lt;td&gt;, &lt;th&gt; ], &lt;form&gt;[ &lt;input&gt;, &lt;datalist&gt;( &lt;option&gt; ) ], &lt;label&gt;, &lt;button&gt;, &lt;select&gt;[ &lt;option&gt; , &lt;optgroup&gt;( &lt;option&gt; ) ], &lt;output&gt;, &lt;progress&gt;, &lt;meter&gt;, &lt;fieldset&gt;[ &lt;legend&gt; ], &lt;textarea&gt; e &lt;details&gt;[ &lt;summary&gt; ]</code>
+                        </ul>
+                        <br/>
+
+                    <li><strong>Dinâmicas:</strong> são tags que adicionam elementos de mídia(conteúdos dinâmicos). 
+                        <ul type="disc">
+                            <li><code>&lt;figure&gt;[ &lt;figcaption&gt; ], &lt;map&gt;[ &lt;area&gt; ], &lt;audio&gt;[ &lt;source&gt;, &lt;track&gt; ], &lt;picture&gt;[ &lt;source&gt;, &lt;img&gt;] e &lt;video&gt;[ &lt;source&gt;, &lt;track&gt; ]</code>
+                        </ul>
+                        <br/>
+
+                    <li><strong>Interativas:</strong> são tags que causam eventos ao usuário ou dá comandos ao browser.
+                        <ul type="disc">
+                            <li><code>&lt;dialog&gt;,&lt;script&gt; e &lt;noscript&gt;</code>
+                        </ul>
+                        <br/>
+
+                    <li><strong>Anexadoras:</strong> são tags que adicionam recurso que serão renderizados em uma janela(interna) separada dos demais elementos do documento(geralmente o recurso é dinâmico, interativo ou animado). 
+                        <ul type="disc">
+                            <li><code>&lt;canvas&gt;, &lt;iframe&gt;, &lt;embed&gt; e &lt;object&gt;[ &lt;param&gt; ]</code>
+                        </ul>
+                        <br/>
+
+                    <li><strong>Ocultas:</strong> são tags que adicionam linhas de código ao documento que não serão renderizadas, mas podem ser acessados por alguns recursos, como JS, por exemplo. 
+                        <ul type="disc">
+                            <li><code>&lt;template&gt; e &lt;slot&gt;</code>
+                        </ul>
+                        <br/>
+                </ol>
+
+                <div class="bd-callout bd-callout-warning bg-dark">
+                    <p>Notas:
+                        <ul>
+                            <li>As tags que estão entre [ ] ou ( ), são tags dependentes de uma tag-pai e não fazem sentido em usá-las isoladas.<br/>
+                            <li>Note que há uma grande diferença em criar sentido(tags Marcadoras) e modificar o sentido(tags Semânticas).<br/>
+                            <li>Tags Setoriais também podem ser agregadoras de subseções.<br/>
+                            <li>Tags Ordenatórias estruturam o arquivo( caracterizando-o no formato .html), tags Estruturais estruturam o corpo do documento e seus elementos.<br/>
+                            <li>A definição de tags Marcadoras responderá a pergunta: "O que é isso?".<br/>
+                            <li>Está classificação é pessoal e não está na especificação oficial do HTML5<br/>
+                        </ul>
+                    </p>
+                </div>
+
+                <p>Conto com seu feedback.<br/>
+                Sandra Martini
+                </p>
+
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
